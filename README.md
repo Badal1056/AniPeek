@@ -14,7 +14,6 @@ This project allows users to explore trending, airing, and upcoming anime titles
 ## ✨ Features
 
 - 🖥️ Fully responsive and modern UI
-- 🖼️ Clickable logo redirecting users to the **Popular** page
 - 🌟 Neon glow hover effects on anime cards
 - 🔥 Smooth scaling and animated transitions
 - 🔗 Easy navigation using **React Router**
