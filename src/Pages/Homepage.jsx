@@ -37,7 +37,7 @@ function Homepage() {
                 <div className="logo">
                 <h1>
                     {rendered === 'popular' || rendered === 'airing' || rendered === 'upcoming' ? (
-                        <img src="/public/AniPeek-logo.png" alt="AniPeek Logo" style={{ height: '90px' }} />
+                        <img src="/AniPeek-logo.png" alt="AniPeek Logo" style={{ height: '90px' }} />
                     ) : (
                         'AniPeek'
                     )}
