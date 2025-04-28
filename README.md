@@ -43,7 +43,7 @@ This project allows users to explore trending, airing, and upcoming anime titles
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/AniPeek.git
+   git clone https://github.com/Badal1056/AniPeek.git
 
 2. Install dependencies:
    ```bash
