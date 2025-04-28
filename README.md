@@ -1,6 +1,6 @@
 # AniPeek - Anime Discovery App
 
-A modern and responsive **Anime Discovery Web App** created by **[Your Name]**.  
+A modern and responsive **Anime Discovery Web App** created by **Badal Jha**.  
 This project allows users to explore trending, airing, and upcoming anime titles with stylish hover effects and smooth navigation.
 
 ---
