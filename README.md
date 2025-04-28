@@ -60,6 +60,6 @@ This project allows users to explore trending, airing, and upcoming anime titles
 
 Name: Badal Jha
 
-[Email: ](badaljha1056@gmail.com)
+[Click for Email ](badaljha1056@gmail.com)
 
-[LinkedIn: ](https://www.linkedin.com/in/badal-jha/)
+[Click for LinkedIn ](https://www.linkedin.com/in/badal-jha/)
