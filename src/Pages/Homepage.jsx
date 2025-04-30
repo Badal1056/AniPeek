@@ -44,28 +44,30 @@ function Homepage() {
                 </h1>
                 </div>
                 <div className="search-container">
-                    <div className="filter-btn popular-filter">
-                        <button onClick={() => {
-                            setRendered('popular')
-                        }}>Popular <i className="fas fa-fire"></i></button>
-                    </div>
                     <form action="" className="search-form" onSubmit={handleSubmit}>
                         <div className="input-control">
                             <input type="text" placeholder="Search Anime" value={search} onChange={handleChange} />
                             <button type="submit">Search</button>
                         </div>
                     </form>
-                    <div className="filter-btn airing-filter">
-                        <button onClick={() => {
-                            setRendered('airing')
-                            getAiringAnime()
-                        }}>Airing</button>
-                    </div>
-                    <div className="filter-btn upcoming-filter">
-                        <button onClick={() => {
-                            setRendered('upcoming')
-                            getUpcomingAnime()
-                        }}>Upcoming</button>
+                    <div className="three-btn">
+                        <div className="filter-btn popular-filter">
+                            <button onClick={() => {
+                                setRendered('popular')
+                            }}>Popular <i className="fas fa-fire"></i></button>
+                        </div>
+                        <div className="filter-btn airing-filter">
+                            <button onClick={() => {
+                                setRendered('airing')
+                                getAiringAnime()
+                            }}>Airing</button>
+                        </div>
+                        <div className="filter-btn upcoming-filter">
+                            <button onClick={() => {
+                                setRendered('upcoming')
+                                getUpcomingAnime()
+                            }}>Upcoming</button>
+                        </div>
                     </div>
                 </div>
             </header>
