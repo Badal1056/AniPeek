@@ -25,12 +25,16 @@ function Popular({ rendered }) {
       })
     }
   }
+
   return (
     <div>
-      <Sidebar />
+      {/* Conditionally render Sidebar based on isSearch */}
+      {!isSearch && <Sidebar />}
       
       {/* Heading */}
-      <h2 className="page-heading">Popular Anime 📺</h2>
+      <h2 className="page-heading">
+        {isSearch ? "Search Results" : "Popular Anime 📺"}
+      </h2>
   
       <div className='popular-anime'>
         {conditionalRender()}
@@ -38,4 +42,5 @@ function Popular({ rendered }) {
     </div>
   )
 }
+
 export default Popular

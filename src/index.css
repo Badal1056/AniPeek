@@ -44,7 +44,6 @@ body {
     rgba(58, 123, 213, 0.6),
     rgba(255, 0, 119, 0.6)
   );
-  border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(10px); /* Frosted glass effect for Safari */
   -webkit-backdrop-filter: blur(10px); /* Frosted glass effect for Safari */
@@ -92,6 +91,7 @@ body {
     rgba(6, 204, 171, 0.6)
   );
   padding: 15px;
+  border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -782,8 +782,8 @@ header {
   margin: 0px 0;
   background: linear-gradient(
     85deg,
-    rgba(255, 0, 0, 0.6),
-    rgba(6, 204, 171, 0.6)
+    rgba(58, 123, 213, 0.6),
+    rgba(255, 0, 119, 0.6)
   );
   padding: 10px;
   color: #ffcc00; /* or any color matching your theme */
