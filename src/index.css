@@ -268,7 +268,6 @@ h1 {
   backdrop-filter: blur(10px);
   width: 90%;
   max-width: 1000px;
-
   margin: 0 auto;
 }
 
@@ -597,6 +596,23 @@ header {
 }
 
 /* Centered Back to Home Button */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(
+    85deg,
+    rgba(255, 0, 0, 0.6),
+    rgba(6, 204, 171, 0.6)
+  );
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
 .back {
   text-align: center;
   margin-bottom: 20px;
@@ -607,7 +623,11 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(45deg, #4457ff, #000000);
+  background: linear-gradient(
+    85deg,
+    rgba(255, 0, 0, 0.6),
+    rgba(6, 204, 171, 0.6)
+  );
   padding: 12px 24px;
   border-radius: 10px;
   font-size: 18px;
@@ -676,6 +696,11 @@ header {
   overflow: hidden;
   position: relative;
   transition: transform 0.3s ease-in-out;
+  background: linear-gradient(
+    85deg,
+    rgba(255, 0, 0, 0.6),
+    rgba(6, 204, 171, 0.6)
+  );
 }
 
 .image-con:hover {
@@ -963,7 +988,7 @@ h5 {
   .input-control button {
     padding: 6px 10px;
     font-size: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .anime-details {
@@ -974,9 +999,59 @@ h5 {
   }
 
   .image img {
-    width: 90%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trailer-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
     height: auto;
   }
+  
+  iframe {
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }  
+
+  
+.anime-details p {
+  font-size: 1.0rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0px;
+}
+
+.anime-details p span:first-child {
+  color: #ffcc00; /* or any color matching your theme */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.anime-item h1 {
+  color: #ffcc00; /* or any color matching your theme */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  font-size: 1.8rem;
+}
 }
 
 @media (max-width: 480px) {
